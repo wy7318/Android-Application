@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minsub.user.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme"
+        >
+        <activity android:name=".First">
+            <meta-data android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"/>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name=".Tool"/>
+        <activity android:name=".Main"/>
+        <activity android:name=".MPopular"/>
+        <activity android:name=".MRum"/>
+        <activity android:name=".MVodka"/>
+        <activity android:name=".MWhisky"/>
+        <activity android:name=".MWine"/>
+        <activity android:name=".MGin"/>
+        <activity android:name=".MTequila"/>
+        <activity android:name=".Second"/>
+        <activity android:name=".AppleJulep"/>
+        <activity android:name=".Aristo"/>
+        <activity android:name=".Autumn"/>
+        <activity android:name=".Banana"/>
+        <activity android:name=".Beelzebub"/>
+        <activity android:name=".BlackRussian"/>
+        <activity android:name=".Bloody"/>
+        <activity android:name=".Blue"/>
+        <activity android:name=".Bronx"/>
+        <activity android:name=".Brown"/>
+        <activity android:name=".CaramelCoffee"/>
+        <activity android:name=".Cedar"/>
+        <activity android:name=".Champagne"/>
+        <activity android:name=".Chocolate"/>
+        <activity android:name=".Cider"/>
+        <activity android:name=".Claret"/>
+        <activity android:name=".Cinco"/>
+        <activity android:name=".Clover"/>
+        <activity android:name=".Cosmo"/>
+        <activity android:name=".Cosmo1934"/>
+        <activity android:name=".Daiquiri"/>
+        <activity android:name=".Dana"/>
+        <activity android:name=".Rickey"/>
+        <activity android:name=".Stormy"/>
+        <activity android:name=".Flaming"/>
+        <activity android:name=".Fluffy"/>
+        <activity android:name=".Rumberry"/>
+        <activity android:name=".Bat"/>
+        <activity android:name=".Point"/>
+        <activity android:name=".French75"/>
+        <activity android:name=".GinFizz"/>
+        <activity android:name=".Tango"/>
+        <activity android:name=".Negroni"/>
+        <activity android:name=".Orange"/>
+        <activity android:name=".PinkPlymouth"/>
+        <activity android:name=".Doralto"/>
+        <activity android:name=".Horney"/>
+        <activity android:name=".Juan"/>
+        <activity android:name=".Paloma"/>
+        <activity android:name=".Puerto"/>
+        <activity android:name=".Chihuahua"/>
+        <activity android:name=".Sky"/>
+        <activity android:name=".Snap"/>
+        <activity android:name=".SparklingApple"/>
+        <activity android:name=".Furnace"/>
+        <activity android:name=".Espresso"/>
+        <activity android:name=".Gibson"/>
+        <activity android:name=".Green"/>
+        <activity android:name=".Greygoose"/>
+        <activity android:name=".Lemondrop"/>
+        <activity android:name=".Minted"/>
+        <activity android:name=".Moscow"/>
+        <activity android:name=".Mud"/>
+        <activity android:name=".Elder"/>
+        <activity android:name=".Pomosa"/>
+        <activity android:name=".Rooftop"/>
+        <activity android:name=".Taylored"/>
+        <activity android:name=".Sunset"/>
+        <activity android:name=".Woo"/>
+        <activity android:name=".Mulder"/>
+        <activity android:name=".Rose"/>
+        <activity android:name=".Hot"/>
+        <activity android:name=".Lucy"/>
+        <activity android:name=".Newyork"/>
+        <activity android:name=".Rob"/>
+        <activity android:name=".ScotchSoda"/>
+        <activity android:name=".Sour1870"/>
+        <activity android:name=".Wagyu"/>
+        <activity android:name=".WhiskySour"/>
+        <activity android:name=".Skin"/>
+        <activity android:name=".Smash"/>
+        <activity android:name=".Mimosa"/>
+        <activity android:name=".Sandeman"/>
+        <activity android:name=".Gimlet"/>
+        <activity android:name=".GinTonic"/>
+        <activity android:name=".Gojin"/>
+        <activity android:name=".Sangria"/>
+        <activity android:name=".Grass"/>
+        <activity android:name=".Hong"/>
+        <activity android:name=".Irish"/>
+        <activity android:name=".June"/>
+        <activity android:name=".Island"/>
+        <activity android:name=".Margarita"/>
+        <activity android:name=".Melona"/>
+        <activity android:name=".Midori"/>
+        <activity android:name=".Milkiss"/>
+        <activity android:name=".Mojito"/>
+        <activity android:name=".Old"/>
+        <activity android:name=".RumCoke"/>
+        <activity android:name=".Screwdriver"/>
+        <activity android:name=".Screwkiss"/>
+        <activity android:name=".Sex"/>
+        <activity android:name=".Sling"/>
+        <activity android:name=".Sowon"/>
+        <activity android:name=".Redbull"/>
+        <activity android:name=".WhiteRussian"/>
+        <activity android:name=".Pisco"/>
+        <activity android:name=".Hwang"/>
+        <activity android:name=".Patrinos"/>
+
+
+    </application>
+
+</manifest>
