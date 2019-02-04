@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wbg">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+            <TextView
+                android:gravity="center"
+                android:background="@drawable/blank"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Bank"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/blank2"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:id="@+id/TitleEditText"
+                android:hint="@string/Enteryourbankname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/txv1"
+                android:gravity="center"
+                android:background="@drawable/blank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AccountID"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/blank2"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:id="@+id/txv_1"
+                android:hint="@string/EnteronlinebankID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+
+            </EditText>
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/txv2"
+                android:gravity="center"
+                android:background="@drawable/blank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Password"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/blank2"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:id="@+id/txv_2"
+                android:hint="@string/Enteryourpassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                >
+
+
+            </EditText>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/txv3"
+                android:gravity="center"
+                android:background="@drawable/blank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AccountNumber"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/blank2"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:id="@+id/txv_3"
+                android:hint="@string/Enteraccountnumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+
+            </EditText>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:background="@drawable/blank"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Comment"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <EditText
+                android:gravity="center"
+                android:background="@drawable/blank2"
+                android:textColor="#000000"
+                android:id="@+id/ContentEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="4" >
+            </EditText>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/addNoteToDB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Save"
+        android:background="#55000000"/>
+
+</LinearLayout>

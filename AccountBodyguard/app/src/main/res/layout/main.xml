@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wbg">
+
+    <EditText
+        android:layout_below="@+id/adView"
+        android:layout_marginTop="10dp"
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Searchaccount.."
+        android:inputType=""
+        android:textColorHint="#000000"/>
+
+    <TextView
+
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/AccountList"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/inputSearch"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_below="@+id/textView1"
+        android:id="@+id/noteList"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:columnWidth="100dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="auto_fit"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:listSelector="@null"
+        android:stretchMode="columnWidth"
+        >
+    </ListView>
+
+
+
+
+    <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    <LinearLayout
+        android:layout_marginTop="90dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#88000000">
+
+
+        <Button
+            android:id="@+id/addNote"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/add"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:paddingTop="35dp"
+            android:text="@string/New"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:background="#ffffff"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:background="@null"
+            android:textColor="#ffffff"
+            android:paddingTop="35dp"
+            android:textSize="18dp"
+           />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/info_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/info"
+            android:textColor="#ffffff"
+            android:paddingTop="35dp"
+            android:textSize="18dp"
+            android:text="@string/info"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
