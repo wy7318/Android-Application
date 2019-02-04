@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+<ImageView
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/churpic"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하나님의 말씀이 이끄시는 교회"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:textColor="#000000"
+        android:text="마산열린교회의 비전과 표어는 하나님의 말씀이 이끄시는 교회입니다.\n\n이러한 비전 아래에 우리는 3가지 핵심 가치를 추구하는 교회가 되고자 합니다."
+        android:textSize="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="1. 하나님의 말씀인 성경\n(The Word of God)\n하나님의 말씀인 성경은 기독교 복음과 신앙생활, 교회의 본질과 사명의 가장 중요한, 어떤 면에서 유일한 기초가 되어야 합니다.
+오늘날 같이 세속적이고 분주한 세상에서 하나님의 말씀인 성경은 고리타분하고 실용적이지 않다는 이유로 점점 무시되고 있으며 그결과 교회는 영적 침체와 타락의 위기 가운데 처해있습니다. 교회가 초대교회의 거룩함과 능력, 영광을 회복하기 위해서는 무엇보다 하나님의 말씀인 성경을 다시 읽고, 배우고, 그 메시지를 깨닫고, 우리 삶속에 적용하고 순종해야 할 것입니다.\n\n2. 복음 전도와 세계 선교\n(Evangelism and World Mission)
+하나님께서 최초의 타문화권 선교사로 예수님을 이 세상에 보내신 것처럼 우리도 선교사가 되어서 우리가 사는 지역 사회에 복음을 들고 들어가야 하고, 나아가서 타문화권 지역에도 선교사를 발굴하고 파송하는 일을 감당해야 합니다. 하나님께서 한국을 놀랍게 축복하신 것은 한국교회가 기도하는 교회요 선교하는 교회였기 때문입니다. 모든 지역교회는 주변 지역의 불신자들에게 복음을 소개해주기 위하여 성경적이고 창의적인 방법으로 지속적인 노력을 해야 하며, 나아가서 세계선교를 위하여 다양한 방법을 통하여 성도들이 ‘보내는 선교사, 또는 나가는 선교사’로서 참여해야 합니다.\n\n3. 예수님의 가족같은 공동체\n(Christ-centered Community)
+오늘날과 같이 죄악되고 이기적인 세상 속에서 교회는 예수님과 12제자들의 공동체와 같이 사랑과 섬김에 기초한 영적 가족 공동체가 되어야 합니다. 예수님과의 친밀하고도 인격적인 교제를 기억하고 초대교회 역시 그러한 사랑과 기쁨이 충만한 공동체가 되었을때 세상으로부터 칭송을 받고 믿는 사람들이 날마다 더해지는 역사가 있었습니다. 오늘날도 지역교회 안에서 목회자와 성도들이, 성도들과 성도들이 서로를 존중하면서 사랑하고 섬기는 모습이 나타날 때 지역 사회의 믿지 않는 사람들에게 큰 도전과 감동을 주는 교회가 될 것입니다. "
+        android:textSize="20dp"
+        />
+
+
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/churchlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/home_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"
+        android:textColor="#000000"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+    <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_below="@+id/image1"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:background="#66ffffff"
+            android:id="@+id/linear">
+
+
+
+            <Button
+                android:id="@+id/church_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="교회"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:background="#000000"/>
+            <Button
+                android:id="@+id/rev_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="담임 목사"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:background="#000000"/>
+            <Button
+                android:id="@+id/sch_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="예배 시간"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:background="#000000"/>
+            <Button
+                android:id="@+id/way_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:text="오시는 길"/>
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>
