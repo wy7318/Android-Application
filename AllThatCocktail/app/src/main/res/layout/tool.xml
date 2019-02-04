@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 쉐이커(Shaker)"/>
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaker"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="가장 기본적인 준비물로서, 모든 칵테일의 음료를 넣고 섞어주는데 사용된다."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 바 스푼(Bar spoon)"/>
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spoon"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="음료를 잔에 부은 뒤 혹은 음료를 글라스에서 바로 섞어줄 때 많이 사용된다."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 머들러(Muddler)"/>
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/muddler"/>
+    <TextView
+        android:id="@+id/text6"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="민트 잎이나 레몬껍질 등을 글라스 안에서 으깨 즙을 내는데 사용하는 물건이다."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. 글라스(Glass)"/>
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/glass"/>
+    <TextView
+        android:id="@+id/text8"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="칵테일을 쉐이커에 넣어 섞은 뒤, 위와 같은 글라스에 부어 주면 된다. 글라스는 음료에 따라 여러 종류가 사용 된다."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 계량컵(Measure)"/>
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/measure"/>
+    <TextView
+        android:id="@+id/text10"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="바텐딩의 중요한 요소 중 하나는 바로 음료의 양이다. 각종 술 또는 시럽 등을 계량하는데 사용된다."/>
+
+
+</LinearLayout>
+</ScrollView>
